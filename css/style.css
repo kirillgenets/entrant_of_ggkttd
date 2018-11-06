@@ -215,7 +215,14 @@ header .contacts {
 
 #about {
 	padding-top: 70px;
-	padding-bottom: 70px
+	padding-bottom: 70px;
+}
+
+.about-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .about h2 {
@@ -227,11 +234,15 @@ header .contacts {
 }
 
 .about .about-item {
-	float: left;
+	/*float: left;*/
 	max-width: 330px;
 	text-align: center;
-	margin-right: 90px;
 }
+/*
+.about .about-item:last-child {
+	float: right;
+	margin-right: 0;
+} */
 
 .about h3 {
 	font-size: 36px;
@@ -242,11 +253,6 @@ header .contacts {
 .about p {
 	margin-top: 0;
 	font-size: 24px;
-}
-
-.about .about-item:last-child {
-	float: right;
-	margin-right: 0;
 }
 
 #separation {
