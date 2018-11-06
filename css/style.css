@@ -216,6 +216,19 @@ header .contacts {
 #about {
 	padding-top: 70px;
 	padding-bottom: 70px;
+	animation-name: opacity;
+	animation-duration: 1s;
+	animation-play-state: paused;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .about-items {
