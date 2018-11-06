@@ -152,7 +152,16 @@ header .menu li a {
 }
 
 header .menu li:hover {
-	border-color: #00e0d0;
+	animation-name: rectangle;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes rectangle {
+	100% {
+		border-color: #00e0d0;
+		border-radius: 0;
+	}
 }
 
 header .menu li:hover a {
