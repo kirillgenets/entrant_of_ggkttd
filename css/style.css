@@ -55,7 +55,6 @@ body {
 .slides, .slides:after {
 	position: absolute;
     width: 100%;
-    
     top: 0px;
     left: 0px;
 }
@@ -145,9 +144,11 @@ header .menu li:first-child {
 }
 
 header .menu li a {
+	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 18px;	
+	font-size: 18px;
+	height: 100%;	
 	color: #fff;
 }
 
